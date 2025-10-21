@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import { products } from "@/data/products";
-import heroImage from "@/assets/hero-yeezy.jpg";
+import heroImage from "@/assets/kanye-hero.jpg";
 import { ArrowRight, Truck, Shield, Star } from "lucide-react";
 
 const Index = () => {
@@ -29,14 +29,14 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 container mx-auto px-4 max-w-2xl text-left">
-          <Badge className="mb-4 bg-accent text-accent-foreground">Nueva Colección 2025</Badge>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+          <Badge className="mb-4 bg-accent text-accent-foreground shadow-[0_0_20px_rgba(255,215,0,0.3)]">Nueva Colección 2025</Badge>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white drop-shadow-lg">
             Diseño que
-            <span className="block mt-2 bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+            <span className="block mt-2 bg-gradient-to-r from-[hsl(45_90%_60%)] to-[hsl(0_0%_85%)] bg-clip-text text-transparent">
               trasciende
             </span>
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-lg">
+          <p className="text-xl text-white/90 mb-8 max-w-lg drop-shadow-md">
             Explora la colección exclusiva de zapatillas Yeezy. Minimalismo, comodidad y estilo único.
           </p>
           <div className="flex flex-wrap gap-4">
@@ -145,12 +145,13 @@ const Index = () => {
       {/* CTA Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-accent to-primary p-12 md:p-20 text-center">
+          <div className="relative rounded-3xl overflow-hidden p-12 md:p-20 text-center" style={{ background: 'var(--gradient-silver)' }}>
+            <div className="absolute inset-0 bg-gradient-to-r from-[hsl(45_90%_60%_/_0.1)] to-transparent" />
             <div className="relative z-10">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary-foreground">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
                 Únete a nuestra comunidad
               </h2>
-              <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
+              <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto">
                 Sé el primero en conocer los nuevos lanzamientos, ofertas exclusivas y contenido especial.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
