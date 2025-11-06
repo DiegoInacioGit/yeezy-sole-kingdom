@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">YEEZY</h3>
+            <h3 className="text-lg font-bold mb-4">StyDrops by ADYeezy</h3>
             <p className="text-sm text-muted-foreground">
               Diseño minimalista y comodidad excepcional en cada paso.
             </p>
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; 2025 Yeezy Store. Todos los derechos reservados.</p>
+          <p>&copy; 2025 StyDrops by ADYeezy. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

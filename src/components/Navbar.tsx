@@ -13,7 +13,7 @@ const Navbar = ({ cartItemsCount = 0 }: NavbarProps) => {
       <nav className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold tracking-tight text-foreground">YEEZY</h1>
+            <h1 className="text-2xl font-bold tracking-tight text-foreground">StyDrops by ADYeezy</h1>
           </Link>
           
           <div className="hidden md:flex items-center gap-6">

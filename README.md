@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# StyDrops by ADYeezy
 
-## Project info
+Tienda online premium de zapatillas Yeezy con diseño moderno y funcionalidades completas de ecommerce.
 
-**URL**: https://lovable.dev/projects/688b8fff-3cdc-4732-8f70-1a839a545159
+## 🌟 Características
 
-## How can I edit this code?
+### Funcionalidades Principales
 
-There are several ways of editing your application.
+- **Página Principal**: Hero section con imagen de fondo de Kanye West, productos destacados y promociones
+- **Catálogo Completo**: 
+  - Visualización de todos los modelos Yeezy disponibles
+  - Filtros por precio, talla y modelo
+  - Ordenamiento por precio (mayor/menor), nombre y popularidad
+  - Diseño responsive con grid adaptativo
 
-**Use Lovable**
+- **Página de Detalle del Producto**:
+  - Imágenes de alta calidad
+  - Descripción completa con especificaciones
+  - Selector de talla (35-48)
+  - Control de cantidad
+  - Botón para agregar al carrito
+  - Información de envío
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/688b8fff-3cdc-4732-8f70-1a839a545159) and start prompting.
+- **Carrito de Compras**:
+  - Gestión completa de productos
+  - Cálculo automático de subtotal, envío e impuestos
+  - Visualización del total
+  - Interfaz lista para integración de checkout
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Página de Contacto**:
+  - Formulario de contacto
+  - Información de la tienda
+  - Preguntas frecuentes
 
-**Use your preferred IDE**
+### Diseño
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Sistema de Colores**: Esquema elegante con fondo blanco, toques plateados y acentos dorados
+- **Responsive**: Totalmente adaptado a dispositivos móviles, tablets y desktop
+- **Animaciones**: Transiciones suaves y efectos hover
+- **Tipografía**: Sistema tipográfico limpio y legible
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### SEO Optimizado
 
-Follow these steps:
+- Meta tags completos (title, description, keywords)
+- Open Graph para redes sociales
+- URLs semánticas
+- Estructura HTML semántica
+- Imágenes optimizadas con alt text
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Tecnologías
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Frontend**: React 18 + TypeScript
+- **Routing**: React Router DOM
+- **Estilos**: Tailwind CSS con sistema de diseño personalizado
+- **UI Components**: shadcn/ui
+- **Build Tool**: Vite
+- **Iconos**: Lucide React
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Instalación y Uso
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
+
+# Build para producción
+npm run build
+
+# Preview de build de producción
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 🛣️ Rutas
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `/` - Página principal
+- `/catalog` - Catálogo de productos
+- `/product/:id` - Detalle de producto
+- `/cart` - Carrito de compras
+- `/contact` - Página de contacto
+- `/new-arrivals` - Nuevos lanzamientos
 
-**Use GitHub Codespaces**
+## 🎨 Estructura del Proyecto
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── assets/          # Imágenes (hero, productos)
+├── components/      # Componentes React
+│   ├── ui/         # Componentes UI de shadcn
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   └── ProductCard.tsx
+├── data/           # Datos mock de productos
+├── pages/          # Páginas de la aplicación
+├── hooks/          # Custom hooks
+└── lib/            # Utilidades
+```
 
-## What technologies are used for this project?
+## 🔮 Próximas Funcionalidades
 
-This project is built with:
+- [ ] Sistema de autenticación de usuarios
+- [ ] Integración con Lovable Cloud (base de datos)
+- [ ] Sistema de reviews y valoraciones
+- [ ] Integración de pagos con Stripe
+- [ ] Historial de pedidos
+- [ ] Panel de administración
+- [ ] Sistema de búsqueda avanzada
+- [ ] Wishlist/Favoritos
+- [ ] Newsletter
+- [ ] Notificaciones push
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 Licencia
 
-## How can I deploy this project?
+© 2025 StyDrops by ADYeezy. Todos los derechos reservados.
 
-Simply open [Lovable](https://lovable.dev/projects/688b8fff-3cdc-4732-8f70-1a839a545159) and click on Share -> Publish.
+## 🔗 Enlaces
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Lovable Project**: [https://lovable.dev/projects/688b8fff-3cdc-4732-8f70-1a839a545159](https://lovable.dev/projects/688b8fff-3cdc-4732-8f70-1a839a545159)
+- **Documentación**: [https://docs.lovable.dev](https://docs.lovable.dev)
