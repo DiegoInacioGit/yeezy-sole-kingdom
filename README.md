@@ -2,6 +2,14 @@
 
 Tienda online premium de zapatillas Yeezy con diseño moderno y funcionalidades completas de ecommerce.
 
+## 👥 Información del Proyecto
+
+- **Nombre del Proyecto**: StyDrops
+- **Integrantes**: 
+  - Diego Sotelo
+  - Anais Llancapan
+- **Repositorio**: [https://github.com/DiegoInacioGit/yeezy-sole-kingdom.git](https://github.com/DiegoInacioGit/yeezy-sole-kingdom.git)
+
 ## 🌟 Características
 
 ### Funcionalidades Principales
@@ -116,5 +124,6 @@ src/
 
 ## 🔗 Enlaces
 
+- **GitHub Repository**: [https://github.com/DiegoInacioGit/yeezy-sole-kingdom.git](https://github.com/DiegoInacioGit/yeezy-sole-kingdom.git)
 - **Lovable Project**: [https://lovable.dev/projects/688b8fff-3cdc-4732-8f70-1a839a545159](https://lovable.dev/projects/688b8fff-3cdc-4732-8f70-1a839a545159)
 - **Documentación**: [https://docs.lovable.dev](https://docs.lovable.dev)
